@@ -1,32 +1,114 @@
-<!-- Unit 5 Project
-Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
-
-Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Flexbox
-[ no ] Feature 2 - Flip Card
-[ no ] Feature 3 - Navbar
-[ no ] Feature 4 - Shaking Animation
-[ no ] Feature 5 - Gradient Background
-[ no ] Feature 6 - Spotify Playlist
--->
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasta Primavera Recipe</title>
   <style>
+    /* Gradient background (Feature 5) */
+    body {
+      background: linear-gradient(to right, #f9d423, #ff4e50);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
 
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ff7e5f;
+      color: white;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+    }
+
+    p {
+      width: 80%;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <!-- Gradient Background Feature Added -->
+  <h1 style="text-align: center;">Pasta Primavera Recipe</h1>
 
- 
+  <table>
+    <thead>
+      <tr>
+        <th>Ingredient</th>
+        <th>Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dried Italian herbs or herbes de Provence</td>
+        <td>1 tablespoon</td>
+      </tr>
+      <tr>
+        <td>Farfalle (bowtie pasta)</td>
+        <td>1 pound</td>
+      </tr>
+      <tr>
+        <td>Cherry tomatoes, halved</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Grated Parmesan</td>
+        <td>1/2 cup</td>
+      </tr>
+    </tbody>
+  </table>
 
+  <p>
+    <strong>Step 1:</strong> Boil the farfalle pasta in salted water until al
+    dente.
+  </p>
+  <p>
+    <strong>Step 2:</strong> In a large skillet, heat olive oil and sauté the
+    vegetables until tender.
+  </p>
+  <p>
+    <strong>Step 3:</strong> Add cooked pasta, cherry tomatoes, and herbs.
+    Toss to combine.
+  </p>
+  <p><strong>Step 4:</strong> Serve with grated Parmesan on top.</p>
+  <p>
+    <em>
+      Source:
+      <a
+        href="https://www.foodnetwork.com/recipes/giada-de-laurentiis/pasta-primavera-recipe-1942131"
+        >Pasta Primavera Website</a
+      >
+    </em>
+  </p>
+
+  <img
+    src="https://th.bing.com/th/id/R.abf403a9c55b006852eb10b5855c97de?rik=k7ZLpw21hOCFnQ&pid=ImgRaw&r=0"
+    alt="Pasta Primavera"
+    width="300"
+  />
 </body>
 </html>
